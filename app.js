@@ -30,7 +30,11 @@ function initDB() {
     { id:'u4', nip:'198808202012042002', nama:'Dewi Rahayu', golongan:'PNS', pangkat:'IIIb',
       jabatan:'Pengelola Keuangan', unit:'Bagian Keuangan', email:'dewi@kpu.go.id', hp:'08444444444',
       username:'dewi', password:'dewi123', role:'pegawai', status:'Aktif',
-      avatar:'https://ui-avatars.com/api/?name=Dewi+Rahayu&background=6a1b9a&color=fff&size=80' }
+      avatar:'https://ui-avatars.com/api/?name=Dewi+Rahayu&background=6a1b9a&color=fff&size=80' },
+    { id:'u5', nip:'197410022006042008', nama:'Mutiyah Pitri', golongan:'PNS', pangkat:'IIId',
+      jabatan:'	Kasubbag Hukum dan SDM', unit:'KPU Kab. Sarolangun', email:'mutiyahpitri@gmail.com', hp:'081366385161',
+      username:'mutiyah', password:'mutiyah123', role:'pegawai', status:'Aktif',
+      avatar:'https://ui-avatars.com/api/?name=Mutiyah+Pitri&background=1565c0&color=fff&size=80' }
   ];
   DB.set('users', users);
 
